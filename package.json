@@ -9,12 +9,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "http://ravimandal06.github.io/trade-web-ui"
   },
   "scripts": {
+    
     "start": "react-scripts start",
+ "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
